@@ -121,7 +121,6 @@ header.active-scroll .inner a {
     width: 100%;
     height: auto;
     object-fit: cover;
-    min-height: 500px;
     opacity: 0.3;
 }
 
