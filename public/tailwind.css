@@ -694,12 +694,12 @@ video {
   height: 100vh;
 }
 
-.w-12 {
-  width: 3rem;
+.min-h-\[750px\] {
+  min-height: 750px;
 }
 
-.w-2\/5 {
-  width: 40%;
+.w-12 {
+  width: 3rem;
 }
 
 .w-4 {
@@ -714,12 +714,12 @@ video {
   width: 100%;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
+.max-w-\[200px\] {
+  max-width: 200px;
 }
 
-.flex-grow {
-  flex-grow: 1;
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .cursor-pointer {
@@ -887,8 +887,8 @@ video {
   font-size: 30px;
 }
 
-.text-\[60px\] {
-  font-size: 60px;
+.text-\[40px\] {
+  font-size: 40px;
 }
 
 .text-xl {
@@ -954,16 +954,29 @@ video {
     margin-top: 0px;
   }
 
+  .md\:h-fit {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .md\:min-h-\[500px\] {
+    min-height: 500px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
 
-  .md\:w-2\/5 {
-    width: 40%;
+  .md\:w-5\/12 {
+    width: 41.666667%;
   }
 
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:max-w-\[400px\] {
+    max-width: 400px;
   }
 
   .md\:grid-cols-2 {
@@ -986,6 +999,18 @@ video {
     justify-content: flex-start;
   }
 
+  .md\:justify-end {
+    justify-content: flex-end;
+  }
+
+  .md\:p-4 {
+    padding: 1rem;
+  }
+
+  .md\:p-8 {
+    padding: 2rem;
+  }
+
   .md\:px-\[100px\] {
     padding-left: 100px;
     padding-right: 100px;
@@ -997,5 +1022,14 @@ video {
 
   .md\:text-left {
     text-align: left;
+  }
+
+  .md\:text-\[60px\] {
+    font-size: 60px;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }

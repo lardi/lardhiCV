@@ -35,6 +35,18 @@ header.active-scroll .inner a {
     color: #fff;
 }
 
+#svgLogoContainer {
+    width: 50px;
+}
+
+#svgLogoContainer path {
+    fill: #374796;
+}
+
+header.active-scroll #svgLogoContainer path {
+    fill: #fff;
+}
+
 #playground h2 span,
 #skills h2 span,
 #contact h2 span,

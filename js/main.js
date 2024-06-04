@@ -36,6 +36,12 @@ function loadSVG() {
             });
         })
         .catch(error => console.error('Error fetching SVG:', error));
+    fetch('images/logo.svg')
+        .then(response => response.text())
+        .then(svgText => {
+            // Insert the SVG into the container
+            document.getElementById('svgLogoContainer').innerHTML = svgText;
+        })
 }
 
 // Load the SVG when the DOM is ready
