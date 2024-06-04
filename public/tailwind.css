@@ -714,8 +714,8 @@ video {
   width: 100%;
 }
 
-.max-w-\[200px\] {
-  max-width: 200px;
+.max-w-\[150px\] {
+  max-width: 150px;
 }
 
 .flex-1 {
@@ -887,8 +887,8 @@ video {
   font-size: 30px;
 }
 
-.text-\[40px\] {
-  font-size: 40px;
+.text-\[35px\] {
+  font-size: 35px;
 }
 
 .text-xl {
@@ -1009,6 +1009,11 @@ video {
 
   .md\:p-8 {
     padding: 2rem;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .md\:px-\[100px\] {
